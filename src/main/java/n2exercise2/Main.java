@@ -5,7 +5,7 @@ import java.time.Period;
 
 public class Main {
 
-    public static void main(String[]args){
+    public static void main(String[] args) {
 
         LocalDate date1 = LocalDate.now();
         LocalDate date2 = LocalDate.of(1987, 9, 16);
