@@ -10,7 +10,7 @@ public class Main {
         LocalDate date1 = LocalDate.now();
         LocalDate date2 = LocalDate.of(1987, 9, 16);
 
-        Period period = Period.between(date1, date2);
+        Period period = Period.between(date2, date1);
 
         System.out.println(period);
 

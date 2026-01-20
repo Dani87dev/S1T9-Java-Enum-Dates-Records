@@ -9,9 +9,10 @@ public class Main {
 
         LocalDate data1 = LocalDate.now();
 
-        data1 = data1.plusDays(5);
-        data1 = data1.plusMonths(4);
-        data1 = data1.plusYears(3);
+        data1 = data1.plusDays(5)
+                .plusMonths(4)
+                .plusYears(3);
+
 
         System.out.println(data1);
 
